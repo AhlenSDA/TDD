@@ -1,3 +1,5 @@
+package cars;
+
 import java.math.BigDecimal;
 
 public class StacjaBenzynowa {
@@ -38,4 +40,7 @@ public class StacjaBenzynowa {
     public BigDecimal obliczCeneDoZaplaty(Samochod samochod, int iloscWlanegoPaliwa) {
         return samochod.getRodzajPaliwa().cena.multiply(new BigDecimal(iloscWlanegoPaliwa));
     }
+
 }
+
+

@@ -1,3 +1,7 @@
+package cars;
+
+import cars.RodzajPaliwa;
+
 public class Samochod {
 
     private int aktualnyPoziomPaliwa;
